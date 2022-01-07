@@ -77,7 +77,7 @@ export default function Header({ back }) {
           target="_blank"
           rel="noopener noreferrer"
           className="hide-small"
-          href="https://uniswap.org/blog/entity-lists/"
+          href="https://www.watcherdao.org/blog/entity-lists/"
         >
           Why lists?
         </a>

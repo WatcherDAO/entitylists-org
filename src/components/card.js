@@ -70,7 +70,7 @@ export default function Card({ id, list, name }) {
   const logoURL = getLogoURL(list?.logoURI ?? null)
 
   return (
-    <StyledCard to={`/token-list?url=${id}`} className="card">
+    <StyledCard to={`/entity-list?url=${id}`} className="card">
       <img
         alt="icon"
         src={logoURL ?? 'https://raw.githubusercontent.com/feathericons/feather/master/icons/help-circle.svg'}

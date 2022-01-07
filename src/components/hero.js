@@ -40,7 +40,7 @@ const Hero = styled.section`
     font-family: 'MatterSQ-SemiBold';
   }
 
-  .uniswap {
+  .watcherdao {
     color: #4f90c5;
     font-family: 'MatterSQ-Regular';
   }
@@ -71,7 +71,7 @@ export default function Header() {
     <Hero>
       <span style={{ marginBottom: '1rem' }}>
         A{' '}
-        <a href="https://www.watcherdao.org/" className="uniswap">
+        <a href="https://www.watcherdao.org/" className="watcherdao">
           WatcherDAO
         </a>{' '}
         Project
