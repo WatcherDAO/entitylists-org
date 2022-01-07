@@ -7,11 +7,12 @@ interface ListReturn {
 }
 
 export function getListURLFromListID(listID: string): string {
+  console.log(listID);
   if (listID.startsWith('https://')) {
     return listID
   } else if (listID?.endsWith('.sol')) {
     // proxy http urls through a CF worker
-    return `https://workers.watcherdao.org/?url=${`http://${listID}.link`}`
+    return `https://wispy-bird-88a7.uniswap.workers.dev/?url=${`http://${listID}.link`}`
   } else {
     throw Error(`Unrecognized listId ${listID}`)
   }
