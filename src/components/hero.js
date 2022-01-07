@@ -41,7 +41,7 @@ const Hero = styled.section`
   }
 
   .uniswap {
-    color: #ff007a;
+    color: #4f90c5;
     font-family: 'MatterSQ-Regular';
   }
 
@@ -71,29 +71,29 @@ export default function Header() {
     <Hero>
       <span style={{ marginBottom: '1rem' }}>
         A{' '}
-        <a href="https://uniswap.org/" className="uniswap">
-          Uniswap
+        <a href="https://www.watcherdao.org/" className="uniswap">
+          WatcherDAO
         </a>{' '}
         Project
       </span>
 
-      <p className="title">An Ethereum token list standard.</p>
+      <p className="title">A Solana entity list standard.</p>
 
       <p style={{ fontSize: '20px', lineHeight: '150%' }} className="description" id="why-lists">
-        Token Lists is a community-led initiative to improve discoverability, reputation and trust in ERC20 token lists
+        Entity Lists is a community-led initiative to improve discoverability, reputation and trust in Solana entity lists
         in a manner that is inclusive, transparent, and decentralized.
       </p>
-      <HoverLink target="_blank" rel="noopener noreferrer" href="https://uniswap.org/blog/token-lists/">
-        {'->'} Why token lists?
+      <HoverLink target="_blank" rel="noopener noreferrer" href="https://watcherdao.org/blog/entity-lists/">
+        {'->'} Why entity lists?
       </HoverLink>
       <HoverLink
         target="_blank"
         rel="noopener noreferrer"
-        href="https://github.com/Uniswap/token-lists#authoring-token-lists"
+        href="https://github.com/WatcherDAO/entity-lists#authoring-entity-lists"
       >
         {'->'} Make your own
       </HoverLink>
-      <HoverLink target="_blank" rel="noopener noreferrer" href="http://community.tokenlists.org/">
+      <HoverLink target="_blank" rel="noopener noreferrer" href="http://community.entitylists.org/">
         {'->'} Community
       </HoverLink>
     </Hero>

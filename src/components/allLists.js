@@ -4,7 +4,7 @@ import FilterResults from 'react-filter-search'
 
 import Card from './card'
 import Search from './search'
-import tokenLists from '../token-lists.json'
+import tokenLists from '../entity-lists.json'
 import { useMultiFetch } from '../utils/useMultiFetch'
 // import { ListItem } from '../components/list-tokens'
 // import { toChecksumAddress } from 'ethereumjs-util'

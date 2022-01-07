@@ -65,19 +65,19 @@ export default function Header({ back }) {
       <Link style={{ display: 'flex', alignItems: 'center' }} to="/">
         <img width={32} src={logo} alt="logo" />
         <span className="title" style={{ marginLeft: '.5rem' }}>
-          Token Lists
+          Entity Lists
         </span>
       </Link>
 
       <Nav>
-        <a target="_blank" rel="noopener noreferrer" className="hide-small" href="http://community.tokenlists.org/">
+        <a target="_blank" rel="noopener noreferrer" className="hide-small" href="http://community.entitylists.org/">
           Community
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
           className="hide-small"
-          href="https://uniswap.org/blog/token-lists/"
+          href="https://uniswap.org/blog/entity-lists/"
         >
           Why lists?
         </a>
@@ -85,7 +85,7 @@ export default function Header({ back }) {
           className="hide-small"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/Uniswap/token-lists#authoring-token-lists"
+          href="https://github.com/WatcherDAO/entity-lists#authoring-entity-lists"
         >
           Make a list
         </a>
@@ -94,7 +94,7 @@ export default function Header({ back }) {
           className="button"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/Uniswap/token-lists"
+          href="https://github.com/WatcherDAO/entity-lists"
         >
           <img
             style={{
